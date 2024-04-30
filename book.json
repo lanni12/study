@@ -1,0 +1,19 @@
+{  
+  "bookInfo": {  
+    "title": "书名",
+    "description": "描述",
+    "isbn": "图书编号",
+    "author": "作者",
+    "lang": "zh-cn"  
+  },  
+    
+  "plugins": ["-lunr", "-search", "search-pro", "code"],  
+    
+  "pluginsConfig": {
+  },  
+    
+  "variables": {
+    "titleForPage": "页面标题",  
+    "subTitle": "子标题"  
+  }  
+}

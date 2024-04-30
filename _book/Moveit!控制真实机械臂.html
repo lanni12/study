@@ -1,0 +1,678 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第四步 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="利用c++与python简单控制机械臂.html" />
+    
+    
+    <link rel="prev" href="gazebo与rviz的联合仿真.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="毕业设计">
+            
+                <span>
+            
+                    
+                    毕业设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="dobot在rviz中显示.html">
+            
+                <a href="dobot在rviz中显示.html">
+            
+                    
+                    第一步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="利用Moveit!生成相应配置文件.html">
+            
+                <a href="利用Moveit!生成相应配置文件.html">
+            
+                    
+                    第二步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="gazebo与rviz的联合仿真.html">
+            
+                <a href="gazebo与rviz的联合仿真.html">
+            
+                    
+                    第三步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="Moveit!控制真实机械臂.html">
+            
+                <a href="Moveit!控制真实机械臂.html">
+            
+                    
+                    第四步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="利用c++与python简单控制机械臂.html">
+            
+                <a href="利用c++与python简单控制机械臂.html">
+            
+                    
+                    第五步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="cv_bridge的简单使用.html">
+            
+                <a href="cv_bridge的简单使用.html">
+            
+                    
+                    第六步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="手势控制机械臂.html">
+            
+                <a href="手势控制机械臂.html">
+            
+                    
+                    第七步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="内参标定.html">
+            
+                <a href="内参标定.html">
+            
+                    
+                    第八步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="手眼标定.html">
+            
+                <a href="手眼标定.html">
+            
+                    
+                    第九步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="darknet_ros.html">
+            
+                <a href="darknet_ros.html">
+            
+                    
+                    第十步
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第四步</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5982;&#x4F55;&#x4E0E;dobot&#x771F;&#x5B9E;&#x673A;&#x68B0;&#x81C2;&#x8054;&#x5408;&#x8FD0;&#x52A8;">&#x5982;&#x4F55;&#x4E0E;dobot&#x771F;&#x5B9E;&#x673A;&#x68B0;&#x81C2;&#x8054;&#x5408;&#x8FD0;&#x52A8;</h1>
+<p>  &#x8FD9;&#x65F6;&#x5019;&#x5C31;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x76F8;&#x5E94;&#x7684;&#x6587;&#x4EF6;&#x4E0E;&#x6DFB;&#x52A0;&#x6587;&#x4EF6;</p>
+<p>&#x7B2C;&#x4E00;&#x6B65;:&#x5C06;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;ros&#x529F;&#x80FD;&#x5305;&#x5BFC;&#x5165;&#x81EA;&#x5DF1;&#x7684;&#x5DE5;&#x4F5C;&#x7A7A;&#x95F4;&#x4E2D;&#xFF0C;&#x5B98;&#x65B9;&#x529F;&#x80FD;&#x5305;&#x4E2D;&#x5305;&#x542B;dobot&#x673A;&#x68B0;&#x81C2;&#x542F;&#x52A8;&#x7684;&#x670D;&#x52A1;&#x6587;&#x4EF6;(&#x5C31;&#x662F;&#x542F;&#x52A8;&#x673A;&#x68B0;&#x81C2;)&#xFF0C;&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x7B80;&#x5355;&#x63A7;&#x5236;&#x673A;&#x68B0;&#x81C2;&#x7684;&#x529F;&#x80FD;(&#x6BD4;&#x5982;&#x56DE;Home&#x4F4D;)&#x7B49;&#xFF0C;&#x8FD8;&#x6709;&#x5C06;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;srv&#x6587;&#x4EF6;&#x5168;&#x90E8;&#x62F7;&#x8D1D;&#x8FC7;&#x6765;</p>
+<p><img src="image-11.png" alt="alt text">
+&#x5BFC;&#x5165;&#x4E4B;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x4FEE;&#x6539;CMakeLists.txt&#x4E0E;package.xml&#x6587;&#x4EF6;&#xFF0C;&#x6B64;&#x65F6;&#x6BD4;&#x8F83;&#x9EBB;&#x70E6;&#x9700;&#x8981;&#x6DFB;&#x52A0;&#x5F88;&#x591A;&#x4E1C;&#x897F;&#xFF0C;&#x6BD4;&#x5982;dobot&#x673A;&#x68B0;&#x81C2;srv&#x6587;&#x4EF6;&#x7B49;&#xFF0C;&#x8FD9;&#x65F6;&#x6839;&#x636E;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;CMakeLists.txt&#x4E0E;package.xml&#x6587;&#x4EF6;&#x590D;&#x5236;&#x7C98;&#x8D34;&#x3002;
+&#x7136;&#x540E;catkin_make&#x7F16;&#x8BD1;&#x6210;&#x529F;
+<img src="image-12.png" alt="alt text">
+&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x4E00;&#x4E0B;&#x542F;&#x52A8;&#x4E00;&#x4E0B;dobot&#x673A;&#x68B0;&#x81C2;</p>
+<pre><code class="lang-bash">roscore
+rosrun dobot DobotServer ttyUSB0   &#x5F00;&#x542F;dobot&#x673A;&#x68B0;&#x81C2;&#x670D;&#x52A1;
+rosrun dobot DobotClient_Returnzero  &#x56DE;&#x96F6;&#x64CD;&#x4F5C;
+</code></pre>
+<p>&#x6B64;&#x65F6;&#x4F1A;&#x53D1;&#x73B0;&#x673A;&#x68B0;&#x81C2;&#x56DE;&#x96F6;&#x64CD;&#x4F5C;&#x529F;&#x80FD;&#x5B9E;&#x73B0;&#x4E86;&#xFF0C;&#x8BF4;&#x660E;&#x5BFC;&#x5165;&#x76F8;&#x5E94;&#x5305;&#x6210;&#x529F;&#x4E86;</p>
+<h2 id="&#x6CE8;&#xFF1A;&#x6709;&#x65F6;&#x5019;&#x542F;&#x52A8;&#x670D;&#x52A1;&#x65F6;&#xFF0C;&#x4F1A;&#x62A5;&#x9519;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;usb&#x7AEF;&#x53E3;&#x6743;&#x9650;&#x6CA1;&#x5F00;">&#x6CE8;&#xFF1A;&#x6709;&#x65F6;&#x5019;&#x542F;&#x52A8;&#x670D;&#x52A1;&#x65F6;&#xFF0C;&#x4F1A;&#x62A5;&#x9519;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;usb&#x7AEF;&#x53E3;&#x6743;&#x9650;&#x6CA1;&#x5F00;</h2>
+<p>&#x4E00;&#x6B21;&#x6027;&#x89E3;&#x51B3;&#x5176;&#x4E32;&#x53E3;&#x6743;&#x9650;</p>
+<pre><code class="lang-bash">sudo chmod a+rw /dev/ttyUSB0
+</code></pre>
+<p>&#x6C38;&#x4E45;&#x6027;&#x89E3;&#x51B3;&#x5176;&#x4E32;&#x53E3;&#x6743;&#x9650;
+    <a href="https://blog.csdn.net/c417469898/article/details/117510172" target="_blank">https://blog.csdn.net/c417469898/article/details/117510172</a>
+&#x91CD;&#x542F;&#x7535;&#x8111;&#x624D;&#x5B8C;&#x5168;&#x751F;&#x6548;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x4E0B;&#x9762;&#x535A;&#x5BA2;&#xFF0C;&#x4E86;&#x89E3;&#x4E0B;&#x9762;&#x7684;&#x4FEE;&#x6539;
+<a href="https://blog.csdn.net/qq_34935373/article/details/95916111" target="_blank">https://blog.csdn.net/qq_34935373/article/details/95916111</a></p>
+<p>1:&#x4FEE;&#x6539;dobot_moveit_config/launch&#x5305;&#x4E2D;&#x7684;&#x6587;&#x4EF6;demo.launch&#x4E0E;move_group&#x6587;&#x4EF6;&#x4E2D;</p>
+<pre><code class="lang-bash">      &lt;arg name=<span class="hljs-string">&quot;fake_execution_type&quot;</span> default=<span class="hljs-string">&quot;false&quot;</span>/&gt;
+</code></pre>
+<p>&#x7136;&#x540E;&#x6839;&#x636E;&#x4E0B;&#x9762;&#x56FE;&#x7247;&#x8BE5;&#x6CE8;&#x91CA;&#x6CE8;&#x91CA;&#xFF0C;&#x8BE5;&#x6DFB;&#x52A0;&#x6DFB;&#x52A0;
+<img src="image-13.png" alt="alt text">
+<img src="image-14.png" alt="alt text"></p>
+<p>2: &#x7136;&#x540E;&#x521B;&#x5EFA; dobot_moveit_controller_manager.launch.xml&#x6587;&#x4EF6;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">launch</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">param</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;moveit_controller_manager&quot;</span>
+         <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;moveit_simple_controller_manager/MoveItSimpleControllerManager&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">param</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;controller_manager_name&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;/&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">param</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;use_controller_manager&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;true&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">rosparam</span> <span class="hljs-attr">file</span>=<span class="hljs-string">&quot;$(find dobot_moveit_config)/config/controllers.yaml&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">launch</span>&gt;</span>
+</code></pre>
+<p>3.&#x7136;&#x540E;&#x5728;dobot_moveit_config/config&#x4E2D;&#x6DFB;&#x52A0;controllers.yaml&#x6587;&#x4EF6;</p>
+<pre><code class="lang-xml">controller_list:
+  - name: arm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - joint_1
+      - joint_2
+      - joint_5
+      - joint_6
+</code></pre>
+<h2 id="&#x6CE8;">&#x6CE8;</h2>
+<p>&#x8FD9;&#x91CC;controllers.yaml&#x6587;&#x4EF6;&#x4E0D;&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x624B;&#x5199;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;simple_moveit_controllers.yaml&#x6587;&#x4EF6;&#x91CC;&#x7684;&#x5185;&#x5BB9;&#x62F7;&#x8D1D;&#x51FA;&#x6765;(&#x8FD9;&#x662F;&#x4E4B;&#x524D;&#x5728;&#x7F16;&#x5199;controllers.yaml&#x6587;&#x4EF6;&#x65F6;&#x53D1;&#x73B0;&#x4E0E;simple_moveit_controllers.yaml&#x6587;&#x4EF6;&#x4E00;&#x81F4;)</p>
+<p>&#x90A3;&#x4E48;&#x8FD9;&#x91CC;&#x5C31;&#x6709;&#x53E6;&#x4E00;&#x79CD;&#x65B9;&#x5F0F;&#x4FEE;&#x6539;dobot_moveit_controller_manager.launch.xml&#x6587;&#x4EF6;&#x4E2D;&#x6700;&#x540E;&#x4E00;&#x884C;</p>
+<pre><code class="lang-bash">&lt;rosparam file=<span class="hljs-string">&quot;<span class="hljs-variable">$(find dobot_moveit_config)</span>/config4/controllers.yaml&quot;</span>/&gt;
+</code></pre>
+<p>&#x5BF9;&#x5E94;&#x4FEE;&#x6539;&#x4E3A;simple_moveit_controllers.yaml&#x3002;&#x6309;&#x7167;&#x4E60;&#x60EF;&#x7684;&#x8BDD;&#x3002;&#x8FD8;&#x662F;&#x91C7;&#x7528;&#x7B2C;&#x4E00;&#x79CD;&#x65B9;&#x5F0F;&#x5427;</p>
+<p>4:&#x6DFB;&#x52A0;launch&#x6587;&#x4EF6;&#x65B9;&#x4FBF;&#x542F;&#x52A8;&#x5404;&#x79CD;&#x6587;&#x4EF6;dobot_moveit_planning_executiuon.launch</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">launch</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">param</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;robot_description&quot;</span> <span class="hljs-attr">textfile</span>=<span class="hljs-string">&quot;$(find dobot)/urdf/dobot.urdf&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">include</span> <span class="hljs-attr">file</span>=<span class="hljs-string">&quot;$(find dobot_moveit_config)/launch/move_group.launch&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">arg</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;publish_monitored_planning_scene&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;true&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">include</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- The visualization component of MoveIt! --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">arg</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;use_rviz&quot;</span> <span class="hljs-attr">default</span>=<span class="hljs-string">&quot;true&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">include</span> <span class="hljs-attr">file</span>=<span class="hljs-string">&quot;$(find dobot_moveit_config)/launch/moveit_rviz.launch&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">arg</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;rviz_config&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;$(find dobot_moveit_config)/launch/moveit.rviz&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">arg</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;debug&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;false&quot;</span>/&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">include</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">include</span> <span class="hljs-attr">file</span>=<span class="hljs-string">&quot;$(find dobot)/launch/dobot_gazebo.launch&quot;</span>/&gt;</span>  
+<span class="hljs-tag">&lt;/<span class="hljs-name">launch</span>&gt;</span>
+</code></pre>
+<p>5&#xFF1A;&#x4F1A;&#x53D1;&#x73B0;&#x8FD9;&#x91CC;&#x5E76;&#x6CA1;&#x6709;dobot_gazebo.launch&#x6587;&#x4EF6;&#xFF0C;&#x8FD9;&#x91CC;&#x6DFB;&#x52A0;&#x8BE5;dobot&#x6587;&#x4EF6;&#x4E2D;&#x6DFB;&#x52A0;launch&#x6587;&#x4EF6;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">launch</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- Load the CougarBot URDF model into the parameter server --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">param</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;robot_description&quot;</span> <span class="hljs-attr">textfile</span>=<span class="hljs-string">&quot;$(find dobot)/urdf/dobot.urdf&quot;</span> /&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Start Gazebo with an empty world --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">include</span> <span class="hljs-attr">file</span>=<span class="hljs-string">&quot;$(find gazebo_ros)/launch/empty_world.launch&quot;</span>/&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Spawn a CougarBot in Gazebo, taking the description from the parameter server --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">node</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;spawn_urdf&quot;</span> <span class="hljs-attr">pkg</span>=<span class="hljs-string">&quot;gazebo_ros&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;spawn_model&quot;</span> <span class="hljs-attr">args</span>=<span class="hljs-string">&quot;-param robot_description -urdf -model dobot&quot;</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">rosparam</span> <span class="hljs-attr">file</span>=<span class="hljs-string">&quot;$(find dobot)/config/joint_trajectory_controller.yaml&quot;</span> <span class="hljs-attr">command</span>=<span class="hljs-string">&quot;load&quot;</span> /&gt;</span>
+  <span class="hljs-comment">&lt;!-- Start the controller spawner --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">node</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;controller_spawner&quot;</span> <span class="hljs-attr">pkg</span>=<span class="hljs-string">&quot;controller_manager&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;spawner&quot;</span> <span class="hljs-attr">respawn</span>=<span class="hljs-string">&quot;false&quot;</span> <span class="hljs-attr">output</span>=<span class="hljs-string">&quot;screen&quot;</span> <span class="hljs-attr">args</span>=<span class="hljs-string">&quot;arm_controller joint_state_controller&quot;</span> /&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Convert joint states to TF transforms for rviz, etc --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">node</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;robot_state_publisher&quot;</span> <span class="hljs-attr">pkg</span>=<span class="hljs-string">&quot;robot_state_publisher&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;robot_state_publisher&quot;</span> <span class="hljs-attr">respawn</span>=<span class="hljs-string">&quot;false&quot;</span> <span class="hljs-attr">output</span>=<span class="hljs-string">&quot;screen&quot;</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">launch</span>&gt;</span>
+</code></pre>
+<ol>
+<li>&#x5728; dobot&#x6587;&#x4EF6;&#x5939;&#x4E2D; config&#x6587;&#x4EF6;&#x5939;&#x6DFB;&#x52A0;joint_trajectory_controller.yaml&#x6587;&#x4EF6;&#xFF0C;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x662F;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x63A7;&#x5236;&#x5668;&#x6765;&#x63A7;&#x5236;&#x76F8;&#x5173;&#x7684;&#x5173;&#x8282;&#xFF0C;&#x8054;&#x5408;&#x72B6;&#x6001;&#x53D1;&#x5E03;&#x8005;joint_state_controller</li>
+</ol>
+<pre><code class="lang-xml">arm_controller:
+  type: &quot;position_controllers/JointTrajectoryController&quot;
+  joints: [joint_1,joint_2,joint_5,joint_6]
+
+joint_state_controller:
+  type: &quot;joint_state_controller/JointStateController&quot;
+  publish_rate: 50
+</code></pre>
+<p>7.&#x5148;&#x5728;dobot&#x5305;&#x91CC;&#x5BFC;&#x5165;JointTrajectory_subscriber.cpp&#xFF0C;&#x7136;&#x540E;&#x4FEE;&#x6539;cmakelist.txt&#x6587;&#x4EF6;&#xFF0C;&#x4F7F;&#x5176;&#x7F16;&#x8BD1;&#x6210;&#x529F;&#x3002;</p>
+<pre><code class="lang-xml">#include &quot;ros/ros.h&quot;
+#include &quot;std_msgs/String.h&quot;
+#include &quot;std_msgs/Float32MultiArray.h&quot;
+#include &quot;DobotDll.h&quot;
+
+#include &lt;sensor_msgs/JointState.h&gt;
+#include &lt;trajectory_msgs/JointTrajectory.h&gt;
+#include &lt;control_msgs/FollowJointTrajectoryActionGoal.h&gt;
+#include &lt;math.h&gt;
+
+#include &quot;dobot/SetCmdTimeout.h&quot;
+#include &quot;dobot/SetQueuedCmdClear.h&quot;
+#include &quot;dobot/SetQueuedCmdStartExec.h&quot;
+#include &quot;dobot/SetQueuedCmdForceStopExec.h&quot;
+#include &quot;dobot/GetDeviceVersion.h&quot;
+
+#include &quot;dobot/SetEndEffectorParams.h&quot;
+#include &quot;dobot/SetPTPJointParams.h&quot;
+#include &quot;dobot/SetPTPCoordinateParams.h&quot;
+#include &quot;dobot/SetPTPJumpParams.h&quot;
+#include &quot;dobot/SetPTPCommonParams.h&quot;
+#include &quot;dobot/SetPTPCmd.h&quot;
+void callback(const control_msgs::FollowJointTrajectoryActionGoal::ConstPtr &amp;msg);
+ros::ServiceClient client_1;
+ros::ServiceClient client_2;
+ros::ServiceClient client_3;
+ros::ServiceClient client_4;
+ros::ServiceClient client_5;
+ros::ServiceClient client_6;
+ros::ServiceClient client_7;
+ros::ServiceClient client_8;
+ros::ServiceClient client_9;
+ros::ServiceClient client_10;
+int main(int argc, char **argv)
+{
+
+ros::init(argc, argv, &quot;JointTrajectory_subscriber&quot;);
+ros::NodeHandle n;
+ros::ServiceClient client;
+
+client_1 = n.serviceClient&lt;dobot::SetCmdTimeout&gt;(&quot;/DobotServer/SetCmdTimeout&quot;);
+
+client_2 = n.serviceClient&lt;dobot::SetQueuedCmdClear&gt;(&quot;/DobotServer/SetQueuedCmdClear&quot;);
+
+client_3 = n.serviceClient&lt;dobot::SetQueuedCmdStartExec&gt;(&quot;/DobotServer/SetQueuedCmdStartExec&quot;);
+
+client_4 = n.serviceClient&lt;dobot::GetDeviceVersion&gt;(&quot;/DobotServer/GetDeviceVersion&quot;);
+
+client_5 = n.serviceClient&lt;dobot::SetEndEffectorParams&gt;(&quot;/DobotServer/SetEndEffectorParams&quot;);
+
+client_6 = n.serviceClient&lt;dobot::SetPTPJointParams&gt;(&quot;/DobotServer/SetPTPJointParams&quot;);
+
+
+client_7 = n.serviceClient&lt;dobot::SetPTPCoordinateParams&gt;(&quot;/DobotServer/SetPTPCoordinateParams&quot;);
+
+
+client_8 = n.serviceClient&lt;dobot::SetPTPJumpParams&gt;(&quot;/DobotServer/SetPTPJumpParams&quot;);
+
+
+client_9 = n.serviceClient&lt;dobot::SetPTPCommonParams&gt;(&quot;/DobotServer/SetPTPCommonParams&quot;);
+
+client_10 = n.serviceClient&lt;dobot::SetPTPCmd&gt;(&quot;/DobotServer/SetPTPCmd&quot;);
+
+
+
+ROS_INFO(&quot;JointTrajectory_subscriber running.../n&quot;);
+
+ros::Rate loop_rate(30);
+ros::Subscriber trajectory_sub = n.subscribe(&quot;/arm_controller/follow_joint_trajectory/goal&quot;, 10, callback);
+
+ros::spin();
+
+
+return 0;
+}
+
+void callback(const control_msgs::FollowJointTrajectoryActionGoal::ConstPtr &amp;msg)
+{
+
+int trajectory_length = msg-&gt;goal.trajectory.points.size();
+std::cout &lt;&lt; &quot;/n/nlength of trajectory points is:&quot; &lt;&lt; trajectory_length &lt;&lt; std::endl &lt;&lt; std::endl;
+
+
+// SetCmdTimeout
+dobot::SetCmdTimeout srv1;
+srv1.request.timeout = 3000;
+if (client_1.call(srv1) == false) {
+ROS_ERROR(&quot;Failed to call SetCmdTimeout. Maybe DobotServer isn&apos;t started yet!&quot;);
+return ;
+}
+
+// Clear the command queue
+dobot::SetQueuedCmdClear srv2;
+client_2.call(srv2);
+
+
+// Start running the command queue
+dobot::SetQueuedCmdStartExec srv3;
+client_3.call(srv3);
+
+// Get device version information
+dobot::GetDeviceVersion srv4;
+client_4.call(srv4);
+if (srv4.response.result == 0) {
+ROS_INFO(&quot;Device version:%d.%d.%d&quot;, srv4.response.majorVersion, srv4.response.minorVersion, srv4.response.revision);
+} else {
+ROS_ERROR(&quot;Failed to get device version information!&quot;);
+}
+
+// Set end effector parameters
+dobot::SetEndEffectorParams srv5;
+srv5.request.xBias = 0;
+srv5.request.yBias = 0;
+srv5.request.zBias = 0;
+client_5.call(srv5);
+
+
+// Set PTP joint parameters
+do {
+dobot::SetPTPJointParams srv;
+
+for (int i = 0; i &lt; 4; i++) {
+srv.request.velocity.push_back(100);
+}
+for (int i = 0; i &lt; 4; i++) {
+srv.request.acceleration.push_back(100);
+}
+client_6.call(srv);
+} while (0);
+
+// Set PTP coordinate parameters
+do {
+dobot::SetPTPCoordinateParams srv;
+
+srv.request.xyzVelocity = 100;
+srv.request.xyzAcceleration = 100;
+srv.request.rVelocity = 100;
+srv.request.rAcceleration = 100;
+client_7.call(srv);
+} while (0);
+
+// Set PTP jump parameters
+do {
+dobot::SetPTPJumpParams srv;
+
+srv.request.jumpHeight = 20;
+srv.request.zLimit = 200;
+client_8.call(srv);
+} while (0);
+
+// Set PTP common parameters
+do {
+dobot::SetPTPCommonParams srv;
+
+srv.request.velocityRatio = 50;
+
+srv.request.accelerationRatio = 50;
+client_9.call(srv);
+} while (0);
+
+dobot::SetPTPCmd srv;
+/* for (int i = 0; i &lt; trajectory_length - 1; i++)
+{
+srv.request.ptpMode = 4;
+srv.request.x = (float)msg-&gt;goal.trajectory.points[i].positions[0] / (float)M_PI * 180;
+srv.request.y = (float)msg-&gt;goal.trajectory.points[i].positions[1] / (float)M_PI * 180;;
+srv.request.z = (float)msg-&gt;goal.trajectory.points[i].positions[2] / (float)M_PI * 180;;
+srv.request.r = 0;
+client_10.call(srv);
+}
+*/
+/*srv.request.ptpMode = 4;
+srv.request.x = (float)msg-&gt;goal.trajectory.points[0].positions[0] / (float)M_PI * 180;
+srv.request.y = (float)msg-&gt;goal.trajectory.points[0].positions[1] / (float)M_PI * 180;;
+srv.request.z = (float)msg-&gt;goal.trajectory.points[0].positions[2] / (float)M_PI * 180;;
+srv.request.r = 0;
+client_10.call(srv);
+*/
+srv.request.ptpMode = 4;
+srv.request.x = (double)msg-&gt;goal.trajectory.points[trajectory_length-1].positions[0] / (double)M_PI * 180;
+srv.request.y = (double)msg-&gt;goal.trajectory.points[trajectory_length-1].positions[1] / (double)M_PI * 180;;
+srv.request.z = (double)msg-&gt;goal.trajectory.points[trajectory_length-1].positions[2] / (double)M_PI * 180;;
+srv.request.r = 0;
+client_10.call(srv);
+
+}
+</code></pre>
+<p>&#x6700;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x6D4B;&#x8BD5;&#x4E00;&#x4E0B;&#x662F;&#x5426;&#x6210;&#x529F;&#x3002;</p>
+<pre><code class="lang-bash">1:roscore
+2:rosrun dobot DobotServer ttyUSB0
+3:roslaunch dobot_moveit_config dobot_moveit_planning_executiuon.launch
+4&#x542F;&#x52A8;JointTrajectory_subscriber.cpp
+rosrun dobot JointTrajectory_subscriber
+</code></pre>
+<p>&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x70B9;&#x51FB;rviz&#x4E2D;&#x9884;&#x8BBE;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x53D1;&#x73B0;&#x771F;&#x5B9E;&#x673A;&#x68B0;&#x81C2;&#x4E0E;rviz&#xFF0C;gazebo&#x4E2D;&#x6A21;&#x578B;&#x540C;&#x65F6;&#x8FD0;&#x52A8;&#x3002;</p>
+<h2 id="&#x8865;&#x5145;">&#x8865;&#x5145;</h2>
+<p>effort transmission &#x529B;/&#x626D;&#x77E9;&#x4F20;&#x52A8;:&#x8BE5;&#x4F20;&#x52A8;&#x7C7B;&#x578B;&#x5047;&#x5B9A;&#x673A;&#x68B0;&#x81C2;&#x7684;&#x63A7;&#x5236;&#x8F93;&#x5165;&#x662F;&#x529B;/&#x626D;&#x77E9;&#xFF0C;&#x7528;&#x4E8E;&#x63A7;&#x5236;&#x5173;&#x8282;&#x7684;&#x626D;&#x77E9;&#x6216;&#x529B;&#x3002;&#x9002;&#x7528;&#x4E8E;&#x9700;&#x8981;&#x5BF9;&#x5173;&#x8282;&#x65BD;&#x52A0;&#x7279;&#x5B9A;&#x529B;&#x6216;&#x626D;&#x77E9;&#x6765;&#x5B9E;&#x73B0;&#x548C;&#x529B;&#x611F;&#x77E5;&#x7684;&#x5E94;&#x7528;
+Velocity(&#x901F;&#x5EA6;) &#x9002;&#x7528;&#x4E8E;&#x63A7;&#x5236;&#x6267;&#x884C;&#x5668;&#x4EE5;&#x7279;&#x5B9A;&#x7684;&#x901F;&#x5EA6;&#x8FD0;&#x884C;&#x3002;&#x5B83;&#x53EF;&#x7528;&#x4E8E;&#x9700;&#x8981;&#x6267;&#x884C;&#x5E73;&#x6ED1;&#xFF0C;&#x8FDE;&#x7EED;&#x8FD0;&#x52A8;&#x7684;&#x4EFB;&#x52A1;
+Position&#x4F4D;&#x7F6E;  &#x9002;&#x7528;&#x4E8E;&#x63A7;&#x5236;&#x6267;&#x884C;&#x5668;&#x79FB;&#x52A8;&#x5230;&#x7279;&#x5B9A;&#x4F4D;&#x7F6E;&#x6216;&#x5173;&#x8282;&#x89D2;&#x5EA6;&#x3002;&#x5B83;&#x53EF;&#x7528;&#x4E8E;&#x9700;&#x8981;&#x6267;&#x884C;&#x51C6;&#x786E;&#x4F4D;&#x7F6E;&#x63A7;&#x5236;&#x7684;&#x4EFB;&#x52A1;&#x3002;</p>
+<p><a href="https://blog.csdn.net/m0_56661101/article/details/131415296" target="_blank">https://blog.csdn.net/m0_56661101/article/details/131415296</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="gazebo与rviz的联合仿真.html" class="navigation navigation-prev " aria-label="Previous page: 第三步">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="利用c++与python简单控制机械臂.html" class="navigation navigation-next " aria-label="Next page: 第五步">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第四步","level":"1.2.4","depth":2,"next":{"title":"第五步","level":"1.2.5","depth":2,"path":"利用c++与python简单控制机械臂.md","ref":"利用c++与python简单控制机械臂.md","articles":[]},"previous":{"title":"第三步","level":"1.2.3","depth":2,"path":"gazebo与rviz的联合仿真.md","ref":"gazebo与rviz的联合仿真.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","code"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search-pro":{},"code":{"copyButtons":true},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"titleForPage":"页面标题","subTitle":"子标题"},"bookInfo":{"title":"书名","description":"描述","isbn":"图书编号","author":"作者","lang":"zh-cn"},"gitbook":"*"},"file":{"path":"Moveit!控制真实机械臂.md","mtime":"2024-04-30T07:07:44.395Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-04-30T08:01:16.551Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
